@@ -1,0 +1,24 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="FILE_MASK" value="*.java" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.xsd</mask>
+      <mask>*.x*</mask>
+      <mask>*.xml</mask>
+      <mask>*.jsp</mask>
+      <mask>*.css</mask>
+      <mask>*.js</mask>
+      <mask>*.jфмф</mask>
+      <mask>.*gradle</mask>
+      <mask>*.gradle</mask>
+      <mask>*.java</mask>
+    </recentFileMasks>
+  </component>
+</application>

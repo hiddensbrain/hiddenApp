@@ -1,0 +1,79 @@
+<toolSet name="External Tools">
+  <tool name="assemble" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline --daemon -Pstrings.showActivation=false -Pstrings.activationID=03707337473 -Pstrings.debug=true -PapkDebuggable -Pstrings.acraEnabled=false -PskipCobertura --stacktrace assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="clean" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline  clean" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="predex" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline clean predexLibs" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assemble-techcu" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="-Pstrings.activationID=00704521633 -Pstrings.app_name=&quot;Tech CU&quot; -Pstrings.showActivation=False -PfiName=&quot;techcu&quot; -PversionCode=22484 -PversionName=3.11.58 -PandroidBuildToolsRevision=19.1.0 assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assemble-925-generic" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="-Pstrings.activationID=00704521633 -Pstrings.app_name=&quot;Tech CU&quot; -Pstrings.showActivation=True -PfiName=&quot;techcu_ad_test&quot; -PversionCode=22484 -PversionName=3.11.58 -PandroidBuildToolsRevision=19.1.0 assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assembleBio" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline -Pstrings.libraryManagement=&quot;+Fingerprint +Eyeverify&quot;  -Pstrings.showActivation=true -Pstrings.activationID=192.168.1.48 -Pstrings.debug=true -PapkDebuggable -Pstrings.acraEnabled=false -PskipCobertura --stacktrace assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="test" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline test --stacktrace --info " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assembleBio-1803" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline --stacktrace -Pstrings.hasAgreement=false -Pstrings.fiName=generic -PversionCode=90 -Pstrings.showActivation=true -Pstrings.activationID=02553147854 -Pstrings.debug=true -Pstrings.libraryManagement=&quot;+MiSnap +EyeVerify&quot; assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="predex-eyeverify" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline clean predexLibs -PfileNamePatternsToPredex=eyeverify-service-implementation" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assembleBio_no_activation" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline -Pstrings.libraryManagement=&quot;+Fingerprint +Eyeverify&quot;  -Pstrings.showActivation=false -Pstrings.activationID=3707337473 -Pstrings.debug=true -PapkDebuggable -Pstrings.acraEnabled=false -PskipCobertura --stacktrace assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="assemblePush" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/workplace/mfm/gradle/bin/gradle" />
+      <option name="PARAMETERS" value="--offline -Pstrings.libraryManagement=&quot;+PushNotifications +Fingerprint +Eyeverify&quot;  -Pstrings.showActivation=true -Pstrings.activationID=192.168.1.48 -Pstrings.debug=true -PapkDebuggable -Pstrings.acraEnabled=false -PskipCobertura --stacktrace assemble " />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
