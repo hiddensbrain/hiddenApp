@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/LinearLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <Button
+            android:text="@string/buttonListLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonListLight"
+            android:onClick="onListButtonClick"/>
+
+    <Button
+            android:text="@string/register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonListRegister"
+            android:onClick="onRegisterButtonClick"
+            android:layout_below="@+id/buttonListLight"
+            android:layout_alignParentStart="true"/>
+    <Button
+            android:text="@string/sherlockstart_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonListSherlock"
+            android:onClick="onSherlockButtonClick"
+            android:layout_below="@+id/buttonListRegister"
+            android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

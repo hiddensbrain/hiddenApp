@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/LinearLayoutFinal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/sherlock2"
+              android:text="@string/chooseName"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:layout_height="wrap_content"/>
+
+    <RadioGroup android:layout_width="wrap_content"
+                android:id="@+id/radioGroup1"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sherlock2" android:layout_alignParentStart="true">
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:id="@+id/radioVasya"
+                     android:checked="false"
+                     android:onClick="onRadioClick"
+                     android:text="@string/sherlockVasya"
+                     android:layout_height="wrap_content"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:id="@+id/radioPetya"
+                     android:checked="false"
+                     android:onClick="onRadioClick"
+                     android:text="@string/sherlockPetya"
+                     android:layout_height="wrap_content"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:id="@+id/radioFedya"
+                     android:checked="false"
+                     android:onClick="onRadioClick"
+                     android:text="@string/sherlockFedya"
+                     android:layout_height="wrap_content"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:id="@+id/radioBubenchik"
+                     android:checked="false"
+                     android:onClick="onRadioClick"
+                     android:text="@string/sherlockBubenchick"
+                     android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+
+</RelativeLayout>

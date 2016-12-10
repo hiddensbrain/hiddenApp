@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/LinearLayoutStart"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sherlock"
+            android:scaleType="centerCrop"
+            android:id="@+id/icon"/>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/sherlock1"
+              android:text="@string/who"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/icon"
+              android:layout_alignParentStart="true"/>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/sherlockInfo"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:layout_below="@+id/sherlock1"
+              android:layout_alignParentStart="true"/>
+
+    <Button android:layout_width="match_parent"
+            android:id="@+id/buttonChoose"
+            android:onClick="onSherlockChooseClick"
+            android:text="@string/sherlockChooseButton"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sherlockInfo"
+            android:layout_alignParentStart="true"/>
+</RelativeLayout>
