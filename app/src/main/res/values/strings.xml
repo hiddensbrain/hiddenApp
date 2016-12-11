@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">hiddensApp</string>
-    <string name="textMain">Это приложения постоянно обновляется и создано оно для практики <b>Сергея</b> в разработке
-        Android приложений.
+    <string name="textMain">Это приложениe постоянно обновляется и создано оно для практики <b>Сергея</b> в разработке
+        Android.
     </string>
     <string name="buttonMain">Увидеть все</string>
     <string name="red">Red</string>
