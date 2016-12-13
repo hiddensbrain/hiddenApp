@@ -34,6 +34,13 @@
 
         <activity android:name=".SherlockFinalActivity"
                   android:label="@string/sherlockfinal_title"></activity>
+
+        <activity android:name=".AboutActivity"
+                  android:theme="@style/Theme.AppCompat.Dialog"
+                  android:label="@string/about_title"></activity>
+
+        <activity android:name=".ToastActivity"
+                  android:label="@string/toastTitle"></activity>
     </application>
 
 </manifest>

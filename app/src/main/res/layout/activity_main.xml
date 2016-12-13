@@ -30,4 +30,12 @@
             android:layout_marginTop="19dp"
             android:onClick="onMainButtonClick"
             android:id="@+id/button"/>
+    <Button
+            android:text="@string/buttonabout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAbout"
+            android:layout_alignParentBottom="true"
+            android:onClick="onAboutButtonClick"
+            android:layout_alignParentEnd="true"/>
 </RelativeLayout>

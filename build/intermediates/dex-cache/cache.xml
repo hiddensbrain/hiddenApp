@@ -2,301 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="11611025892781733e3485636c5808df9a6afe3f">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_578915612f369214740fc9738b130ba16634729f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_594a758104bd026dbac8fa9fa0babb5b79f911a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_511049ac46a14e1ac3e4bc1af3896dc15cc22a03/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_81961a8875e8f6ac276736177ae92654c26f41f9/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_81961a8875e8f6ac276736177ae92654c26f41f9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4d214da45e81da9c439e959cdb8f848392a80a6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2ba41738e3716f883e1cc7f2d05fd6e75fad5823/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_415e2c63ed05641d79749023322966d814aa5226/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_cf54af64d5321635e105a51b527aed011cce86a7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f854c8675d2700a369e58701016b5f88e2b424a7">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_77093a881a4d40e1701ed0c4d88e5d611818aaaa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1a470c569e449b325d81cfc2d53f1bbb82b0faae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_a1ccc2c7a1b38b1e98851677da61a9a28ab5b8e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_cc5333fe014efe4007bb83fb799709511f0f24b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_771cc0e4a04962730d918b1db7e74d689f3af778/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_c8ca746b0e29268d3c8db74751cbd48ca2b6a7be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d895d5281ba9dc454ee08950ce02b37d5624fdb1/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_594a758104bd026dbac8fa9fa0babb5b79f911a9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8eec165bc9893cceea5c4ab1ef231b983d084a45/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_9740c1b822696069b19b6e8018222c7e6d233014/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_f405f999ffeeefbb50d82c449676c8a407fb65de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_0c647159fb7dff111f180f67900217a3f8745ce2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_5aeb20e5c8f8bd8483ff013966cb9bb52b1e2abf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_7c39ec74ecc7cfcb0c94cdbf0dffe095df9ef395/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_cf54af64d5321635e105a51b527aed011cce86a7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_70007e217266c5d9d662cdbcd08ed8debf2ceed8/classes.dex" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_415e2c63ed05641d79749023322966d814aa5226.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_aae58039e6ec79f3a211bd6e40e4d3620ba7cde0/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_aae58039e6ec79f3a211bd6e40e4d3620ba7cde0.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4d214da45e81da9c439e959cdb8f848392a80a6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_a3a5a6f808ea9f4b445f2361fdfc7436ce0eabd6/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_a3a5a6f808ea9f4b445f2361fdfc7436ce0eabd6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_5aeb20e5c8f8bd8483ff013966cb9bb52b1e2abf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_78d47aeb331d558864933e9db43200f546b40e6b/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_70007e217266c5d9d662cdbcd08ed8debf2ceed8.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1a470c569e449b325d81cfc2d53f1bbb82b0faae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_cc5333fe014efe4007bb83fb799709511f0f24b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/alina/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_3833859ba96ad35c332df23c76c9db438d2fb7de/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_3833859ba96ad35c332df23c76c9db438d2fb7de.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_26bb84defd78f108a43df73ac0d15c7d5a463ed7/classes.dex" />
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_8eec165bc9893cceea5c4ab1ef231b983d084a45.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f4c2c7a321e0ce05f551ee2626544c8a3a1dea92">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_77a1048858aaad17740e9ade536f6b146fe58d93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_21dce5d02a53d107cc9a2ebab29f4c0b8f2fedc7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
         sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6afec826fae749cf37ccdfaae833750ecdf1626d/classes.dex" />
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6afec826fae749cf37ccdfaae833750ecdf1626d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.1"
-        sha1="c28e43cacc0a406ca9134f229df672a13301b052">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e32a59760ff3a0b24a16f0359ed2c0c034cecdc1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_b9d63f6c5995eb5bed5c6317eb90e865cb9a9963/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/alina/cmasdata/traffcilight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/alina/cmasdata/traffcilight/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_14535a8c25c35e430246af09177b0ba700047b6c/classes.dex" />
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/alina/AndroidStudioProjects/hiddenApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_21dce5d02a53d107cc9a2ebab29f4c0b8f2fedc7.jar" />
     </item>
 
 </items>

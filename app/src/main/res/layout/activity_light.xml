@@ -8,8 +8,7 @@
 
     <Button
             android:text="@string/red"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonRed"
             android:onClick="onRedButtonClick"
             android:layout_alignParentTop="true"
@@ -18,8 +17,7 @@
 
     <Button
             android:text="@string/yellow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonYellow"
             android:onClick="onYellowButtonClick"
             android:layout_marginTop="50dp"
@@ -28,8 +26,7 @@
 
     <Button
             android:text="@string/green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonGreen"
             android:onClick="onGreenButtonClick"
             android:layout_marginTop="50dp"

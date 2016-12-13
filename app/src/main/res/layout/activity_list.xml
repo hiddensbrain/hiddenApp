@@ -8,26 +8,29 @@
 
     <Button
             android:text="@string/buttonListLight"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonListLight"
             android:onClick="onListButtonClick"/>
 
     <Button
             android:text="@string/register_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonListRegister"
             android:onClick="onRegisterButtonClick"
             android:layout_below="@+id/buttonListLight"
             android:layout_alignParentStart="true"/>
     <Button
             android:text="@string/sherlockstart_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/buttonListStyle"
             android:id="@+id/buttonListSherlock"
             android:onClick="onSherlockButtonClick"
             android:layout_below="@+id/buttonListRegister"
+            android:layout_alignParentStart="true"/>
+    <Button
+            style="@style/buttonListStyle"
+            android:text="@string/buttonListToast"
+            android:onClick="onToastButtonClick"
+            android:layout_below="@id/buttonListSherlock"
             android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

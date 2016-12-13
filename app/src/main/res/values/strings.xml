@@ -12,6 +12,8 @@
     <string name="buttonProjectsAll">Все проекты</string>
     <string name="buttonListLight">Светофор</string>
     <string name="sherlockChooseButton">Помочь Шерлоку!</string>
+    <string name="buttonabout">О программе</string>
+    <string name="buttonListToast">Тостер</string>
 
     <string name="text_above">
         У лукоморья дуб ученый;\n
@@ -32,6 +34,7 @@
     <string name="register_title">Регистрация</string>
     <string name="sherlockstart_title">Шерлок</string>
     <string name="sherlockfinal_title">Кто украл?</string>
+    <string name="toastTitle">Корми кота быстро!</string>
 
     <string name="toWhom">Кому</string>
     <string name="toDescription">Описание</string>
@@ -39,11 +42,13 @@
     <string name="pass">Password</string>
     <string name="who">Мне нужно Имя!!!</string>
     <string name="chooseName">Выберите имя</string>
+    <string name="catFood">Да покормите уже кота наконец!!!</string>
 
     <string name="sherlockVasya">Вася</string>
     <string name="sherlockPetya">Петя</string>
     <string name="sherlockFedya">Федя</string>
     <string name="sherlockBubenchick">Бубенчик!</string>
+
 
 
 </resources>
