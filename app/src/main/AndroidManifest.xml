@@ -42,6 +42,9 @@
         <activity android:name=".ToastActivity"
                   android:label="@string/toastTitle"></activity>
 
+        <activity android:name=".MenuActivity"
+                  android:label="@string/menu_title"></activity>
+
 
     </application>
 

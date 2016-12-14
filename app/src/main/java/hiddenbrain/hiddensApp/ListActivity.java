@@ -49,4 +49,9 @@ public class ListActivity extends Activity {
         toastCat.show();
 
     }
+
+    public void onMenuButtonClick(View view) {
+        Intent intentMenu = new Intent(this, MenuActivity.class);
+        startActivity(intentMenu);
+    }
 }

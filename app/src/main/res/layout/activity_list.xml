@@ -28,9 +28,17 @@
             android:layout_alignParentStart="true"/>
     <Button
             style="@style/buttonListStyle"
+            android:id="@+id/buttonListToast"
             android:text="@string/buttonListToast"
             android:onClick="onToastButtonClick"
             android:layout_below="@id/buttonListSherlock"
+            android:layout_alignParentStart="true"/>
+    <Button
+            style="@style/buttonListStyle"
+            android:id="@+id/buttonListMenu"
+            android:text="@string/buttonListMenu"
+            android:onClick="onMenuButtonClick"
+            android:layout_below="@id/buttonListToast"
             android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

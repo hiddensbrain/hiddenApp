@@ -20,6 +20,8 @@
     <string name="buttonabout">О программе</string>
     <string name="buttonListToast">Тостер</string>
     <string name="buttonListMenu">Меню</string>
+    <string name="buttonMenuText">Показать меню</string>
+    <string name="textViewMenu">Еще меню!</string>
 
     <string name="text_above">
         У лукоморья дуб ученый;\n

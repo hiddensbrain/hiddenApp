@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/firstGroup">
+        <item
+                android:id="@+id/menu1"
+                android:title="popupItem1"
+                android:icon="@android:drawable/checkbox_on_background"/>
+
+        <item android:title="popupItem2"
+              android:id="@+id/menu2"/>
+
+        <item android:id="@+id/menu3"
+              android:title="popupItem3"/>
+
+        <menu>
+            <item
+                android:id="@+id/submenu"
+                android:title="Подменю"/>
+
+        </menu>
+        </group>
+
+    <group android:id="@+id/secondGroup">
+        <item android:id="@+id/menu4"
+              android:checkable="true"
+              android:checked="true"
+              android:icon="@android:drawable/checkbox_on_background"
+              android:title="popupItem4"/>
+
+        <item android:title="popupItem5"
+              android:id="@+id/menu5"
+              android:enabled="false"/>
+        <item android:title="popupMenu6"
+              android:id="@+id/menu6"/>
+
+
+
+    </group>
+
+</menu>
