@@ -1,4 +1,9 @@
 <resources>
+    <string name="action_settings">Settings</string>
+    <string name="action_cat_male">Кот</string>
+    <string name="action_cat_female">Кошка</string>
+    <string name="action_kitten">Котенок</string>
+
     <string name="app_name">hiddensApp</string>
     <string name="textMain">Это приложениe постоянно обновляется и создано оно для практики <b>Сергея</b> в разработке
         Android.
@@ -14,6 +19,7 @@
     <string name="sherlockChooseButton">Помочь Шерлоку!</string>
     <string name="buttonabout">О программе</string>
     <string name="buttonListToast">Тостер</string>
+    <string name="buttonListMenu">Меню</string>
 
     <string name="text_above">
         У лукоморья дуб ученый;\n
@@ -35,6 +41,7 @@
     <string name="sherlockstart_title">Шерлок</string>
     <string name="sherlockfinal_title">Кто украл?</string>
     <string name="toastTitle">Корми кота быстро!</string>
+    <string name="menu_title">Тестирование меню</string>
 
     <string name="toWhom">Кому</string>
     <string name="toDescription">Описание</string>

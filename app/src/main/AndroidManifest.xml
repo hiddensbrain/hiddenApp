@@ -41,6 +41,8 @@
 
         <activity android:name=".ToastActivity"
                   android:label="@string/toastTitle"></activity>
+
+
     </application>
 
 </manifest>
